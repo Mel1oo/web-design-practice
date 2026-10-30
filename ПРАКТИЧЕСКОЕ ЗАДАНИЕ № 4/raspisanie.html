@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Расписание занятий ЦТ-21</title>
+
+<style>
+body {
+    background: #f8f3ff;
+    font-family: Arial, sans-serif;
+    color: #51446b;
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    color: #9167b5;
+}
+
+p {
+    color: #89749f;
+}
+
+table {
+    margin: 25px auto;
+    background: white;
+    border-color: #c6b3df;
+    border-radius: 12px;
+}
+
+th {
+    background: #d9c5f2;
+    color: #50396b;
+    padding: 15px;
+}
+
+td {
+    padding: 12px;
+    min-width: 130px;
+    line-height: 1.6;
+}
+
+.lecture {
+    background: #fce2ed;
+}
+
+.lab {
+    background: #dceefa;
+}
+
+.break {
+    background: #fff0c9;
+    color: #9b712b;
+    font-weight: bold;
+}
+
+.empty {
+    background: #f1eef5;
+    color: #a29bad;
+}
+
+.consult {
+    background: #e4f5e8;
+}
+
+.mini-table {
+    margin: 8px auto;
+    background: white;
+    font-size: 12px;
+}
+
+.mini-table th {
+    background: #bde3c8;
+    padding: 5px;
+}
+
+.mini-table td {
+    padding: 5px;
+    min-width: 50px;
+}
+
+.legend {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer {
+    margin-top: 25px;
+    color: #9b8aaf;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🌸 Моё учебное расписание 🌸</h1>
+<p>Специальность: Цифровая техника</p>
+
+<table border="1" cellpadding="10" cellspacing="3">
+
+<tr>
+    <th colspan="6">
+        📚 Расписание занятий группы ЦТ-31
+    </th>
+</tr>
+
+<tr>
+    <th>Пара / Время</th>
+    <th>Понедельник</th>
+    <th>Вторник</th>
+    <th>Среда</th>
+    <th>Четверг</th>
+    <th>Пятница</th>
+</tr>
+
+<tr>
+    <th>1 пара<br>08:00–08:45</th>
+    <td class="lecture">Метрология<br>Каб. 201</td>
+    <td class="lab">💻 HTML и CSS<br>Лаб. 305</td>
+    <td class="lecture">Математика<br>Каб. 204</td>
+    <td class="lab">🔬 Электроника<br>Лаб. 302</td>
+    <td class="lecture">Философия<br>Каб. 210</td>
+</tr>
+
+<tr>
+    <th>2 пара<br>08:55–09:40</th>
+    <td class="lab">🔬 Измерительные приборы<br>Лаб. 302</td>
+    <td class="lecture">Политология<br>Каб. 207</td>
+    <td class="lab">💻 Программирование<br>Лаб. 305</td>
+    <td class="lecture">Электротехника<br>Каб. 201</td>
+    <td class="lecture">Английский язык<br>Каб. 208</td>
+</tr>
+
+<tr>
+    <th>3 пара<br>09:50–10:35</th>
+    <td class="lecture">Цифровая техника<br>Каб. 203</td>
+    <td class="lab">🔬 Диагностика РЭА<br>Лаб. 302</td>
+    <td class="lecture">Метрология<br>Каб. 201</td>
+    <td class="lab">💻 Веб-разработка<br>Лаб. 305</td>
+    <td class="empty">&nbsp;<br>Окно</td>
+</tr>
+
+<tr>
+    <th>Перерыв</th>
+    <td class="break" colspan="5">
+        ☕ Большая перемена — 20 минут
+    </td>
+</tr>
+
+<tr>
+    <th>4 пара<br>10:55–11:40</th>
+    <td class="lab">💻 Программирование<br>Лаб. 305</td>
+    <td class="lecture">Электротехника<br>Каб. 201</td>
+    <td class="lab">🔬 Монтаж РЭА<br>Лаб. 302</td>
+    <td class="lecture">История культуры<br>Каб. 206</td>
+    <td class="lab">💻 HTML и CSS<br>Лаб. 305</td>
+</tr>
+
+<tr>
+    <th>5 пара<br>11:50–12:35</th>
+    <td class="lecture">Английский язык<br>Каб. 208</td>
+    <td class="lecture">Математика<br>Каб. 204</td>
+    <td class="lecture">Цифровая техника<br>Каб. 203</td>
+    <td class="lab">🔬 Измерения<br>Лаб. 302</td>
+    <td class="consult">
+        Консультации
+        <table class="mini-table" border="1"
+        cellpadding="4" cellspacing="1">
+            <tr>
+                <th>День</th>
+                <th>Время</th>
+            </tr>
+            <tr>
+                <td>Пн</td>
+                <td>13:00</td>
+            </tr>
+            <tr>
+                <td>Пт</td>
+                <td>13:30</td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<tr>
+    <th rowspan="2">Дополнительно</th>
+    <td class="lecture">Самостоятельная работа</td>
+    <td class="empty">&nbsp;</td>
+    <td class="lecture">Подготовка проектов</td>
+    <td class="empty">&nbsp;</td>
+    <td class="lecture">Повторение материала</td>
+</tr>
+
+<tr>
+    <td colspan="5" class="break">
+        ✨ Время для выполнения домашних заданий ✨
+    </td>
+</tr>
+
+</table>
+
+<div class="legend">
+    🌷 <b>Обозначения:</b><br><br>
+    🩷 Розовый — лекционные занятия<br>
+    🩵 Голубой — лабораторные работы<br>
+    💚 Зелёный — консультации<br>
+    🤍 Серый — свободное окно
+</div>
+
+<p class="footer">
+    Выполнила: студентка группы ЦТ-31<br>
+    Практическая работа № 4 — Таблицы в HTML
+</p>
+
+</body>
+</html>
